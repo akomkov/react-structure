@@ -1,0 +1,18 @@
+// --- Dependencies ---
+@import '~foundation-sites/scss/vendor/normalize';
+
+// --- Utilities ---
+@import '~foundation-sites/scss/util/util';
+
+// --- Settings ---
+@import '../../styles/settings/settings';
+
+// --- Components ---
+// Global styles
+@import '~foundation-sites/scss/global';
+@import '~foundation-sites/scss/forms/forms';
+@import '~foundation-sites/scss/typography/typography';
+
+@include foundation-normalize;
+
+.App {}

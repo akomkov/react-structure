@@ -1,0 +1,17 @@
+// --- Utilities ---
+@import '~foundation-sites/scss/util/util';
+
+// --- Settings ---
+@import '../../styles/settings/settings';
+
+// --- Components ---
+@import '~foundation-sites/scss/grid/gutter';
+@import '~foundation-sites/scss/grid/flex-grid';
+
+.Cell {
+  @include flex-grid-column;
+
+  &__width {
+    // Add loop width modifier. From 1 to 12
+  }
+}
